@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ktv-universal-ai-bridge"
+version = "0.1.0"
+description = "Shared memory and task coordination for AI agents, served over MCP."
+requires-python = ">=3.12"
+dependencies = ["mcp>=2.3,<3"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[tool.setuptools]
+packages = ["ktv_bridge"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "ktv-bridge": {
+      "type": "stdio",
+      "command": "C:/Users/keage/Desktop/ktv-universal-ai-bridge/.venv/Scripts/python.exe",
+      "args": ["-m", "ktv_bridge"],
+      "env": {}
+    }
+  }
+}
